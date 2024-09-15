@@ -65,7 +65,7 @@ const contractABI = [{
         "stateMutability": "nonpayable",
         "type": "function"
     }];
-const contractAddress = '0x...';  // Deployed contract address
+const contractAddress = '0x003ACebcec25924bd3cC023D32C15fA6576e66c2';  // Deployed contract address
 
 const groupPayment = new web3.eth.Contract(contractABI, contractAddress);
 
