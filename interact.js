@@ -4,7 +4,67 @@ require('dotenv').config();
 const web3 = new Web3(`https://rinkeby.infura.io/v3/${process.env.INFURA_PROJECT_ID}`);
 
 // Contract ABI and address (obtained from deployment)
-const contractABI = [/* ABI from compile output */];
+const contractABI = [{
+        "inputs": [
+            { "internalType": "uint256", "name": "", "type": "uint256" },
+            { "internalType": "address", "name": "", "type": "address" }
+        ],
+        "name": "contributions",
+        "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [],
+        "name": "groupCount",
+        "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ],
+        "name": "groups",
+        "outputs": [
+            { "internalType": "address payable", "name": "creator", "type": "address" },
+            { "internalType": "uint256", "name": "totalAmount", "type": "uint256" },
+            { "internalType": "uint256", "name": "balance", "type": "uint256" }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [ { "internalType": "address[]", "name": "_participants", "type": "address[]" }, { "internalType": "uint256", "name": "_totalAmount", "type": "uint256" } ],
+        "name": "createGroup",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [ { "internalType": "uint256", "name": "_groupId", "type": "uint256" } ],
+        "name": "pay",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function",
+        "payable": true
+    },
+    {
+        "inputs": [ { "internalType": "uint256", "name": "_groupId", "type": "uint256" }, { "internalType": "address", "name": "_participant", "type": "address" } ],
+        "name": "checkPayment",
+        "outputs": [ { "internalType": "uint256", "name": "", "type": "uint256" } ],
+        "stateMutability": "view",
+        "type": "function",
+        "constant": true
+    },
+    {
+        "inputs": [ { "internalType": "uint256", "name": "_groupId", "type": "uint256" } ],
+        "name": "distribute",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }];
 const contractAddress = '0x...';  // Deployed contract address
 
 const groupPayment = new web3.eth.Contract(contractABI, contractAddress);
