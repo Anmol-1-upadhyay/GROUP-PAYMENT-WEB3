@@ -33,6 +33,9 @@ Contracts manage group creation, payment, and distribution functionalities.
 
 The testing video shows the desired working of problem statement in terminal, we tried running it by makig a UI website but there seems to be a problem with the app.js file but still the desired result is given by code.
 
+### Testing video link:
+https://drive.google.com/file/d/1zc4fvNekcsHLMeaM1a6WgiMJyZ-WktSa/view?usp=sharing
+
 # Detailed Explanation of Work by Each Team Member
 ### Anmol Upadhyay (Blockchain work):
 Responsible for blockchain-related work, including writing and deploying smart contracts on Ethereum. Managed the complete integration of smart contracts with the frontend and handled all interactions with the Ethereum blockchain.
