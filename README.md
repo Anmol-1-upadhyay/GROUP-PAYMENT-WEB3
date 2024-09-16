@@ -14,34 +14,41 @@ The creator can distribute the collected payments to all participants once the g
 # Tech Stacks
 
 ## Frontend:
-### HTML, CSS, JavaScript: The user interface (UI) of the application is built using these web development technologies to provide a responsive and interactive experience.
-### Bootstrap: If any additional styling or layout was used for form and button styling.
+### HTML, CSS, JavaScript: 
+The user interface (UI) of the application is built using these web development technologies to provide a responsive and interactive experience.
+### Bootstrap: 
+If any additional styling or layout was used for form and button styling.
 
 # Backend:
-### Solidity: The smart contracts that govern the group payment logic are written in Solidity, deployed on the Ethereum blockchain.
-### Ganache: Local Ethereum blockchain for testing purposes.
-### MetaMask: For connecting and interacting with the Ethereum blockchain.
-### Web3.js: The Web3.js library is used to connect the frontend with the Ethereum blockchain, enabling users to interact with the deployed smart contracts.
-### Smart Contracts: Contracts manage group creation, payment, and distribution functionalities.
+### Solidity: 
+The smart contracts that govern the group payment logic are written in Solidity, deployed on the Ethereum blockchain.
+### Ganache: 
+Local Ethereum blockchain for testing purposes.
+### MetaMask:
+For connecting and interacting with the Ethereum blockchain.
+### Web3.js:
+The Web3.js library is used to connect the frontend with the Ethereum blockchain, enabling users to interact with the deployed smart contracts.
+### Smart Contracts:
+Contracts manage group creation, payment, and distribution functionalities.
 
 The testing video shows the desired working of problem statement in terminal, we tried running it by makig a UI website but there seems to be a problem with the app.js file but still the desired result is given by code.
 
 # Detailed Explanation of Work by Each Team Member
-Anmol Upadhyay (Blockchain work):
+### Anmol Upadhyay (Blockchain work):
 Responsible for blockchain-related work, including writing and deploying smart contracts on Ethereum. Managed the complete integration of smart contracts with the frontend and handled all interactions with the Ethereum blockchain.
 
-Kaustubh titare (Frontend work):
+### Kaustubh titare (Frontend work):
 Worked on the design and implementation of the frontend, ensuring a smooth and user-friendly interface. Responsible for integrating forms, buttons, and layout to interact with the smart contract features like group creation and payments.
 
-Yashwanth Varma (Backend):
+### Yashwanth Varma (Backend):
 Contributed to the development of the core logic in the Solidity smart contracts. Ensured that the group creation, payment, and distribution functionalities were working seamlessly on the blockchain.
 
-Rushikesh Kaple (Testing & QA):
+### Rushikesh Kaple (Testing & QA):
 Responsible for writing and executing test cases to validate smart contract functions and web3 interactions. Identified and fixed bugs related to group creation, payment validation, and distribution, ensuring a robust and reliable system.
 
-Ganesh (Web3.js & MetaMask Integration):
+### Ganesh (Web3.js & MetaMask Integration):
 Handled the MetaMask integration and managed Web3.js interactions. Ensured seamless communication between the frontend and the Ethereum blockchain, enabling users to securely sign transactions and manage payments.
 
-Sai Ganesh (Smart Contract Developer):
+### Sai Ganesh (Smart Contract Developer):
 Focused on testing and debugging the smart contract and frontend interactions. Played a key role in ensuring the accuracy and reliability of group payment processes by identifying and resolving issues during the integration and testing phases.
 
