@@ -37,7 +37,7 @@ The testing video shows the desired working of problem statement in terminal, we
 https://drive.google.com/file/d/1zc4fvNekcsHLMeaM1a6WgiMJyZ-WktSa/view?usp=sharing
 
 # Detailed Explanation of Work by Each Team Member
-### Anmol Upadhyay (Blockchain work):
+### Anmol Upadhyay (Blockchain Engineer):
 Responsible for blockchain-related work, including writing and deploying smart contracts on Ethereum. Managed the complete integration of smart contracts with the frontend and handled all interactions with the Ethereum blockchain.
 
 ### Kaustubh titare (Frontend work):
